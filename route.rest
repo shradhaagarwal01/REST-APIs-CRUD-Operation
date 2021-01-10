@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5ffb139be978ea38fc490d76
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "WW3"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5ffb158f8fa7541518e1e1f6
+
+###
+PATCH http://localhost:3000/subscribers/5ffb13c5e978ea38fc490d78
+Content-Type: application/json
+
+{
+    "name": "QUIDICH",
+    "subscribedToChannel": "HARRY POTTER"
+}
